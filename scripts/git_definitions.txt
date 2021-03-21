@@ -1,0 +1,63 @@
+Cpp-review-dune
+
+¿Por qué usar un control de versiones?
+
+Bueno, principalmente por las razones que ilustré al comienzo de este capítulo, si no tiene un SCV, las cosas se salen de control muy rápidamente.
+
+Las razones adecuadas son:
+
+Colaboración el SCV permite que un equipo de personas trabaje en el mismo proyecto al mismo tiempo.
+
+Almacenamiento de versiones el SCV gestiona todas las versiones de todos los archivos, los almacena, los nombra y puede recuperarlos.
+
+Seguimiento de los cambios el SCV registra con precisión lo que se cambió y se debe dar una razón para el cambio.
+
+Restaurar cambios y rutas de regresión el SCV permite restaurar archivos individuales o grupos de archivos a una versión anterior.
+
+Terminología
+
+Repositorio Es una base de datos que contiene toda la información acerca de las versiones de los archivos en un proyecto, ubicado en una carpeta oculta
+.git.
+
+Confirmación Instantánea global de todos los archivos del proyecto con descripción de los cambios con respecto a la versión anterior.
+
+Rama Secuencia de commits que describe una rama (línea) de desarrollo. Un repositorio puede contener más de uno. La rama estándar se llama master.
+
+Tag Nombre persistente (identificador) para un commit, por ejemplo, cuando hace un lanzamiento público.
+
+Es buena idea presentarse a Git con su nombre y dirección de correo electrónico público\break antes de realizar cualquier operación. La forma más sencilla de hacerlo es:
+
+\tt \$ git config ---global user.name "testuser"
+\tt \$ git config ---global user.email "testuser@example.com"
+
+\tt \$ man gittutorial
+\tt \$ git help gittutorial
+
+Clonación del repositorio
+
+\tt \$ git clone https:///gitlab.com/courses-2020-1/abet-project.git # Clonar el repositorio.
+\tt \$ cd abet-project
+
+KeyboardExamples
+
+FadeInFrom3DRotateExamples
+
+WriteExamples
+
+FadeInExamples
+
+FromOutCameraExamples_defaults
+
+FromOutCameraExamples_custom
+
+ScaleFromBigExamples
+
+ShowHiddenBehindRectanglesExamples
+
+FallExamples
+
+ToOutCameraExamples
+
+ScaleToSmallExamples
+
+HiddeBehindRectanglesExamples
